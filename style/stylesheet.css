@@ -1,0 +1,345 @@
+/*body - bakgrunnsfarge*/
+.bdy {
+	background-color: #F4F4F4;
+	margin-top:90px;
+}
+/* Fikser bredde på containers */
+.container-fluid {
+	max-width:1300px;
+}
+/*Navigation bar*/
+#navigation-bar {
+	width: 100%;
+    height: 30px;
+    background-color: #015249;
+    margin: 0;
+    z-index: 100;
+    position: fixed;
+}
+
+
+
+.jumboBtn {
+	width: 5em;
+	background-color: #77C9D4 !important;
+	border-color: white !important;
+}
+
+.jumboBtn:hover {
+	background-color: #76b0d4 !important;
+}
+
+
+/* Jumbotron bilde */
+.jumbotron {
+	margin-top:-35px;
+	height:400px;
+	background-size:cover;
+	background-attachment: fixed;
+	color:white;
+	z-index: -100;
+}
+
+/* For å endre bilde per side*/
+.transportJumbo { 
+	background-image: url(../images/jumbotron2.jpg);
+}
+
+
+.introtekst {
+	text-align: center;
+	margin-top: 40px
+}
+
+#rs {
+	color:gray;
+	font-size: 40px;
+}
+
+.container {
+  	width:auto;
+  	margin: 0px;
+  	padding: 0px;
+  	height: 120px;
+  	text-align: center;
+}
+
+.navul {
+	list-style-type: none;
+	font-family: 'Lato', sans-serif;
+	font-weight:800;
+	font-size:15px;
+	float:left;
+	margin-top:3px;
+	color:white;
+	padding-left:15px;
+}
+li {
+	display:inline;
+}
+li a {
+	text-decoration: none;
+	color:white;
+}
+
+/*Nyheter*/
+
+.tab1 {
+	color:white;
+  	width: 10em;
+	background-color: #57BC90;
+	padding-left: 5px;
+	display:inline-block;
+	font-weight: bold;
+	border-top-right-radius: 10px;
+}
+
+.kommune, .by, .location, .stat {
+	border:0;
+	height: 25px;
+}
+
+.nyheterTable {
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	background-color: white;
+	border-top:3px solid #009933;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	width:100%;
+}
+
+td {
+	max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.nyheterTable td {
+	padding:11px;
+}
+
+.news {
+	padding-left:4px !important;
+}
+
+
+/* top5 TABELL*/
+.top5table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+	height: 279px;
+	background-color: #e6e6e6;
+	border-top:3px solid #009933;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.tableImg {
+	width: 10%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.top5tr:nth-child(even) {
+    background-color: white;
+}
+	
+.top5Col {
+	width: auto;
+	height: 350px;
+  	margin-bottom: 20px;
+  	padding:0px;
+  	margin-left: 0px;
+  	padding-right:4px !important;
+}
+
+/*Pilene i tabellen*/
+.piler {
+	height: 16px;
+	width: 16px;
+	opacity: 0.5;
+}
+/*Bilde av bryggen*/
+.bryggen3 {
+	margin: -10px;
+	float: right;
+}
+
+
+/* Modul CSS */
+.modul {
+	background: white;
+	height: 21.5em;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	margin: 0px 5px 40px 5px;
+	max-width: 450px;
+}
+
+.graf {
+	height: 240px;
+	margin-top:20px;
+}
+
+/* Knapper modul */
+.modBtnImg {
+	height: 100%;
+	width: 100%;
+	filter: invert(100%);
+}
+.modBtn {
+	width: 3em !important;
+	background: #57BC90;
+	margin: 1px;
+}
+.modBtn:hover {
+	background: #194c30;
+}
+
+.btnRow{
+	margin: 0px !important;
+	float: right;
+}
+
+/*Teksten som står over grafene*/
+.grafTekst {
+	color:white;
+  	width: 10em;
+	background-color: #57BC90;
+	padding-left: 5px;
+	display:inline-block;
+	font-weight: bold;
+	border-bottom-right-radius: 10px;
+	margin-left: -15px;
+}
+
+.kart {
+	height: 22em;
+	width: 100%;
+}
+
+/*Bilde i venstre graf */
+.graf1 {
+	width:95%;
+}
+
+.kartModul {
+	height: 26em;
+	margin-top:0px;
+}
+
+.forstrMod {
+}
+.forstrModImg {
+	width: 100%;
+}
+
+/* /slutt Modul CSS */
+
+/*FOOTER*/
+footer {
+	height:30px;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #015249;
+}
+
+.footer_items {
+	color: white;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	font-size:10px;
+	margin-top:5px;
+}
+
+/* Knapper for sosiale medier i footer */
+.sosialLink:link {
+	text-decoration: none;
+	color: white;
+}
+.sosialLink:visited {
+	text-decoration: none;
+	color: grey;
+}
+.sosialLink:hover {
+}
+.sosialLink:active {
+	text-decoration: none;
+}
+.fbBtn:hover {
+	color: #3b5998;
+}
+.twtBtn:hover {
+	color: #1da1f2;
+}
+.instBtn:hover {
+	color: tomato;
+}
+.snpBtn:hover {
+	color: yellow;
+}
+
+/* ikon for sosiale medier i footer */
+.icons {
+	font-size:2em;
+	color:white;
+}
+
+.footCont {
+	background-color:#015249;
+	width:100%;
+	height:100px;
+	margin-top:80px;
+	max-width:100%;
+	color:white;
+}
+/*----------------*/
+
+/*tekst i footer*/
+h5, h6 {
+	padding-top:10px;
+	font-size:5px;
+}
+
+
+ /* manglende data skjema */
+#container_nederst {
+	width: 100%;
+	height: auto;
+	background-color: #57BC90;
+	margin-right: auto;
+	margin-right: auto;
+	border: none;
+	margin-top: 80px;
+	color:white;
+	text-align:center;
+}
+
+#klikkher{
+	text-align: center;
+	margin-top:10px;
+	background-color:#015249 !important;
+	border:none !important;
+}
+
+.btn-primary {
+	background-color:#015249 !important;
+	margin-bottom: 10px;
+}
+
+.form-group {
+	height: auto;
+	margin: 20px;
+}
+
+.kommentarfelt {
+	font-size: 25px;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+	padding-top: 15px;
+}
